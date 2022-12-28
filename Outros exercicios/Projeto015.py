@@ -1,0 +1,11 @@
+textoA = input('Digite o texto A: ')
+textoB = input('Digite o texto B: ')
+
+print(len(textoA)- len(textoB))
+print(textoA + textoB)
+print('Primeira letra de A: {}'.format(textoA[0]))
+print('Primeira letra de B: {}'.format(textoB[0]))
+print('A contém B? {}'.format(textoB in textoA))
+print('B contém A? {}'.format(textoA in textoB))
+print('Última letra de A: {}'.format(textoA[-1]))
+print('Ultima letra de B: {}'.format(textoB[-1]))
